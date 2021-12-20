@@ -1,5 +1,8 @@
 # Finalproject
 
+파일명 finalterm_project.ipynb가 제가 찾아낸 최적의 모델이며,
+파일명 finalterm_project - randomizedsearch.ipynb는 제가 Randomized Search를 사용하여 하이퍼파라미터튜닝에 사용한 모델입니다.
+
 우선 이 프로젝트를 시작하면서 우리가 수업시간에 배웠던 perceptron이랑 logistic regression 중 하나를 선택하여 실행하기로 생각했습니다.
 왜냐하면 직접 배운 방법들로 접근하여야 그나마 배우지 않았던 방향보다는 더욱 정확도가 높아지지 않을까 하는 생각이였습니다.
 
@@ -54,4 +57,4 @@ n_jobs=None, //정확도에 영향을 끼치는 값을 찾지 못 했습니다.
 
 l1_ratio=None, //elasticnet의 경우 사용하는 값이지만, 해당 페널티를 사용하지 않았으므로 의미없는 값입니다.
 
-이러한 하이퍼파라미터 튜닝을 통해서 제가 가장 높게 구한 해당 traning dataset에 대한 정확도는 0.98이였습니다.
+이러한 하이퍼파라미터 튜닝을 통해서 제가 가장 높게 구한 해당 traning dataset에 대한 정확도는 0.98이였음을 제가 제출한 모델에서 알 수 있습니다.
